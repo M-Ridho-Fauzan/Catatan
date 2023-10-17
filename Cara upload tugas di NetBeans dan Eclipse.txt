@@ -1,0 +1,25 @@
+buat repo -> pastikan nama project sama dengan nama repo
+copy link repo
+klik kanan projek, pilih Versioning/Inittialize GIT Repository
+lalu klik kanan lagi projek, pilih git/add
+lalu klik kanan lagi projek, pilih git/commit -> pesan tulis bebas
+lalu klik kanan lagi projek, pilih git/Remote/Push
+lalu masukan link yang tadi di copy di repo ke repository URL
+User samakan seperti di github
+--
+Password ambil di github ke bagian setting/Developer Setting/Personal access tokens/Tokens (classic)
+selanjutnya Generate new tokens/Generate new tokens (Classic)
+Masukan nama token random
+ubah Expiration ke yang paling lama atu bebas
+lalu ceklis bagian repo saja sisa nya diamkan saja
+lalu klik "Generate Token" token pun jadi
+--
+copy password dari token
+lalu masukan ke password di form push sebelumnya
+lalu clik next
+klik Select All
+lalu next dan klik finish.
+jika ada pesan maka pilih yes.
+dan cek di repo github nya
+selesai.
+

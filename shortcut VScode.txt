@@ -1,0 +1,34 @@
+ctrl + shift + p = 
+ctrl + p = open file
+ctrl + , = open setting
+ctrl + k-s = open data the short cut
+ctrl + ' = open terminal
+
+basic editing
+
+ctrl + / = commentar
+ctrl + enter = baris baru bawah kursor di tengah
+ctrl + shift + enter = baris baru atas kursor di tengah
+alt + atas / alt + bawah = giring text ats/bwh
+alt + shift + atas/bawah = duplicate tanpa block
+ctrl + shift + k = hapus satu baris
+
+selection/seleksi, shortcut block the text
+
+shift + kanan = seleksi sedikit2
+shift + ctrl + kanan/kiri = seleksi perkata
+ctrl + l = seleksi baris
+ctrl + l-l-l = seleksi baris trus ke bawah
+ctrl + d + cursor = seleksi kata dengan cursor text
+(ctrl + d + cursor)+(ctrl + d-d-d) = seleksi kata dengan cursor text satu2
+ctrl + shift + l = seleksi kata dengan cursor text semua kata
+alt + click = seleksi kata dengan cursor text sesuai klik
+# esc mengembalikan cursor text jadi 1
+
+====
+
+ctrl + p lalu isi @symbol-1 = mencari symbol di 1 file
+ctrl + p lalu isi #symbol-1 = mencari symbol di 1 folder
+ctrl + p lalu isi :no baris = memindahkan cursor ke urutan baris
+ctrl + tab = berganti navigasi tab
+

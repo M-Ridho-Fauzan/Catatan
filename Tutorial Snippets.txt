@@ -1,0 +1,21 @@
+Di vs Code pilih: File > Preperences > Configure User Snippets
+lalu tentukan snippests tsb ingin buat per bahasa pemerograman
+atau Universal di semua bahasa
+
+contoh jika di php
+
+	// "Nama function nya": {
+	// 	"prefix": "Parameter pemanggil",
+	// 	"body": [// gunakan garis siku jika ada baris nya
+	// 		"console.log('$1');", // setelah di panggil akan memunculkan apa
+	// 		"$2" // $1, $2, $n. pengkondisian kursor saat sudah di tab
+	// 	],
+	// 	"description": "c/ ini snippet buat print" // deks
+	// }
+
+++ atau penjelasan default dari vs code nya
+
+Tempatkan cuplikan Anda untuk php di sini. Setiap cuplikan ditentukan dengan nama cuplikan dan memiliki awalan, badan, dan
+keterangan. Awalan adalah apa yang digunakan untuk memicu cuplikan dan badan akan diperluas dan disisipkan. Variabel yang mungkin adalah:
+$1, $2 untuk penghentian tab, $0 untuk posisi kursor terakhir, dan ${1:label}, ${2:another} untuk placeholder. Placeholder dengan
+id yang sama terhubung.

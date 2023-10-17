@@ -1,0 +1,17 @@
+saat menambahkan file ke github 
+tekan   ctrl+'  maka akan muncul terminal
+lalu ketik satu persatu ini:
+
+git status (buat cek apakah ada file yang blum di add)
+git add .
+git commit -m 'tulis komentar tentang tugas di sini'
+git push -u origin main
+
+NB: apabila sudah sebelumnya sudah ketik git push -u origin main maka tidak usah ketik 
+    git push -u origin main lagi, hanya ketik git push saja.
+-- tetapi apabila komputer di restar atau sudah di shutdown dan besok nya di nyalakan lagi
+   maka ketik git push -u origin main lagi
+
+pwd = print working directory
+ls = untuk nge tree folder dan file
+
