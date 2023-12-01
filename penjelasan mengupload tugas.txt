@@ -15,3 +15,37 @@ NB: apabila sudah sebelumnya sudah ketik git push -u origin main maka tidak usah
 pwd = print working directory
 ls = untuk nge tree folder dan file
 
+==================
+
+jika ingin push di aku lain, maka harus login 
+terlebih dahulu dengan perintah ini:
+
+git config --global user.name "your name"
+git config --global user.email "your.name@domain.com"
+
+dan untuk mengecek nama apa yang di pakai di git, gunakan perintah ini:
+git config --global user.name
+untuk email, ini:
+git config --global user.email
+
+===================
+
+dan untuk menambahkan token di link github maka harus seperti ini:
+
+git push https://<username>:<personal-access-token>@github.com/MR-Fauzan/prakweb2023_a_213040036_laravel.git
+
+contoh::
+
+git push https://MR-Fauzan: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@github.com/MR-Fauzan/prakweb2023_a_213040036_laravel.git
+ 
+
+===================
+
+
+## Ambil Perubahan Terbaru dari GitHub:
+
+Gunakan perintah git pull untuk mengambil perubahan terbaru dari repositori GitHub:
+bash
+Copy code
+git pull origin master
+Pastikan untuk mengganti master dengan nama branch yang sesuai.
